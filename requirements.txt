@@ -1,4 +1,9 @@
+# データ処理
 pandas
+
+# 株価データの取得
 yfinance
+
+# Webページの取得と解析
 requests
 beautifulsoup4
