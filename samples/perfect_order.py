@@ -3,7 +3,7 @@
 になっている銘柄を抽出するサンプルスクリプト
 
 事前準備:
-    samples/create_csv.py を実行して株価CSVを用意しておくこと
+    samples/create_csv.py を実行して株価CSVを用意
 """
 
 import glob
