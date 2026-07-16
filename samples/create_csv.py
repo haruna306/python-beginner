@@ -19,7 +19,7 @@ PERIOD = "1y"
 
 
 def fetch_nikkei225_tickers():
-    """Wikipediaの日経225ページから、構成銘柄コード一覧を取得する"""
+    """Wikipediaの日経225ページから、構成銘柄コード一覧を取得"""
     response = requests.get(WIKI_URL, headers={"User-Agent": "Mozilla/5.0"})
     response.raise_for_status()
 
